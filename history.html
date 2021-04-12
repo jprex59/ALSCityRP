@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/history.css" type="text/css" />
+		<link rel="stylesheet" href="./css/menu.css" type="text/css" />
+		<link href="//fonts.googleapis.com/css?family=Roboto:200,400,600" rel="stylesheet" type="text/css" />
+		<script src="https://kit.fontawesome.com/b8f4ab5226.js" crossorigin="anonymous"></script>
+		<title>Home</title>
+	</head>
+	<body>
+		<div class="menu">
+			<span class="menu-container">
+				<a href="index.html">WeazelNews</a>
+				<a href="artical.html">Nos articles/ interviews</a>
+				<a href="history.html">L'histoire du serveur</a>
+				<a href="Citizen.html">La ville</a>
+			</span>
+		</div>
+
+		<div class="history-tl-container">
+			<ul class="tl">
+				<li class="tl-item" ng-repeat="item in retailer_history">
+					<div class="timestamp">
+						25 Juin 2020<br />
+						12 H 00
+					</div>
+					<div class="item-title">Sortie du rap de Carat - VIE D'GANGSTER</div>
+					<div class="item-detail">
+						cdbzicccccc ccccccidqshcpoi ih opichaoih caihpc aohc aoah caihpc <br />
+						<a class="BouttonSwing" href="https://www.youtube.com/watch?v=WRVMnsu77kY">Ecouter la musique</a>
+					</div>
+				</li>
+				<li class="tl-item" ng-repeat="item in retailer_history">
+					<div class="timestamp">
+						19th March 2015<br />
+						3:00 PM
+					</div>
+					<div class="item-title">Kill some Orcs</div>
+					<div class="item-detail">Don't enter the caves!!</div>
+				</li>
+				<li class="tl-item" ng-repeat="item in retailer_history">
+					<div class="timestamp">
+						1st June 2015<br />
+						7:00 PM
+					</div>
+					<div class="item-title">Throw that goddamn ring in the lava</div>
+					<div class="item-detail">Also, throw that Gollum too</div>
+				</li>
+			</ul>
+		</div>
+
+		<footer></footer>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
