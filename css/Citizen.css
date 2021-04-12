@@ -60,7 +60,11 @@
 .miller {
 	background-image: url("../images/Miller.png");
 	background-position: center;
+<<<<<<< HEAD
 	background-size: 535px;
+=======
+	background-size: cover;
+>>>>>>> dd722eec442cc57ba3791657304a42af041a8b8d
 	background-repeat: no-repeat;
 }
 
@@ -70,6 +74,10 @@
 	border-radius: 5px;
 	text-transform: uppercase;
 	color: black;
+<<<<<<< HEAD
+=======
+	transition: all 0.5s;
+>>>>>>> dd722eec442cc57ba3791657304a42af041a8b8d
 	background-color: #ececec;
 }
 
@@ -90,7 +98,11 @@
 	align-items: center;
 	justify-content: center;
 	background: rgba(77, 77, 77, 0.7);
+<<<<<<< HEAD
 	transition: all 0.5s;
+=======
+	transition: all 0.4s;
+>>>>>>> dd722eec442cc57ba3791657304a42af041a8b8d
 }
 
 .modal:target {
