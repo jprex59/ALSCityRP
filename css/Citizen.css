@@ -8,6 +8,7 @@
 	flex-wrap: wrap;
 	padding: 20px;
 	justify-content: center;
+	background-color: #ab0f13;
 }
 .button_modal {
 	width: 500px;
@@ -103,11 +104,12 @@
 }
 /*************************/
 .WeazelNews {
-	background-color: #4e0000;
-	background-image: url(../images/WeazelNews.jpg);
-	background-size: 500px;
-	background-position: right top;
+	background-image: url("../images/Banner/weazelNews.png");
+	background-size: 2050px;
+	background-position: 0 -240px;
 	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-end;
 }
 .miller {
 	background-image: url("../images/Miller.png");
@@ -116,11 +118,12 @@
 	background-repeat: no-repeat;
 }
 .Concessionnaire {
-	background-color: #fffbfb;
-	background-image: url(../images/Persos/Concess.jpg);
-	background-size: 500px;
-	background-position: right top;
+	background-image: url("../images/Banner/LDM.png");
+	background-size: 2050px;
+	background-position: center;
 	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-end;
 }
 .Delmas {
 	background-image: url("../images/Persos/Delmas.jpg");
@@ -129,10 +132,9 @@
 	background-repeat: no-repeat;
 }
 .LSPD {
-	background-color: #fffbfb;
-	background-image: url("../images/Persos/LSPD_Logo.png");
-	background-size: 350px;
-	background-position: right top;
+	background-image: url("../images/Banner/LSPD.png");
+	background-size: 2050px;
+	background-position: 0px -100px;
 	background-repeat: no-repeat;
 	justify-content: space-around;
 }
@@ -148,18 +150,67 @@
 	background-position: 0px -100px;
 }
 .Mosley {
-	background-color: #fffbfb;
-	background-image: url("../images/Persos/Mosley.jpg");
-	background-size: 500px;
-	background-position: right top;
+	background-image: url("../images/Banner/Mosley.png");
+	background-size: 2050px;
+	background-position: 0 -145px;
 	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-end;
 }
 .Kane {
 	background-image: url("../images/Persos/Kane.jpg");
 	background-position: center;
-	background-size: 280px;
+	background-size: 310px;
 	background-repeat: no-repeat;
 	width: 250px;
+}
+.laeti {
+	background-image: url("../images/Persos/laeti.jpg");
+	background-position: center;
+	background-size: 310px;
+	background-repeat: no-repeat;
+	width: 250px;
+}
+.JD {
+	background-image: url("../images/Persos/JD.jpg");
+	background-position: center;
+	background-size: 290px;
+	background-repeat: no-repeat;
+	width: 250px;
+}
+
+.Faver {
+	background-image: url("../images/Persos/faver.jpg");
+	background-position: center;
+	background-size: 470px;
+	background-repeat: no-repeat;
+	width: 420px;
+	height: 314px;
+}
+.container-taxis {
+	background-image: url("../images/Banner/taxi.png");
+	background-size: 2050px;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-end;
+}
+.Pompier {
+	background-image: url("../images/Banner/Pompier.png");
+	background-size: 2050px;
+	background-position: 0px -370px;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.EMS {
+	background-image: url("../images/Banner/EMS.png");
+	background-size: 2050px;
+	background-position: 0px -370px;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: flex-end;
 }
 /*************************/
 
