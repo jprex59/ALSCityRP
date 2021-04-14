@@ -43,14 +43,25 @@ h2 {
 /*******************Article à modifier*************************/
 
 .Article1 {
-	background-image: url(../images/ImagesArticles/Delit1.jpg);
+	background-image: url("../images/ImagesArticles/Delit1.jpg");
 	background-size: 500px;
 }
 .Article2 {
-	background-image: url(../images/ImagesArticles/Delit21.jpg);
+	background-image: url("../images/ImagesArticles/Delit21.jpg");
 	background-size: 500px;
 	height: 600px;
 	background-position: top right;
+}
+
+.Article3 {
+	background-image: url("../images/ImagesArticles/Faver_Article_LSPD.jpg") !important;
+	background-size: 500px;
+	height: 600px;
+	background-position: right 100px;
+}
+
+.medium {
+	height: 800px;
 }
 
 /*******************************************************************/

@@ -164,6 +164,10 @@
 	background-repeat: no-repeat;
 	width: 250px;
 }
+.Kane:hover {
+	background-position: -200px -250px;
+	background-size: 550px;
+}
 .laeti {
 	background-image: url("../images/Persos/laeti.jpg");
 	background-position: center;
@@ -171,12 +175,21 @@
 	background-repeat: no-repeat;
 	width: 250px;
 }
+.laeti:hover {
+	background-position: -30px -200px;
+	background-size: 480px;
+}
 .JD {
 	background-image: url("../images/Persos/JD.jpg");
 	background-position: center;
 	background-size: 290px;
 	background-repeat: no-repeat;
 	width: 250px;
+}
+
+.JD:hover {
+	background-position: -40px -300px;
+	background-size: 450px;
 }
 
 .Faver {
