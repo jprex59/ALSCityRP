@@ -13,3 +13,7 @@
 .hero-own {
 	background-color: #fff !important;
 }
+
+.description {
+	text-align: justify;
+}
