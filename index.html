@@ -1,56 +1,138 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/index.css" type="text/css" />
-		<link rel="stylesheet" href="./css/menu.css" type="text/css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<link rel="stylesheet" href="./css/all.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 		<script src="https://kit.fontawesome.com/b8f4ab5226.js" crossorigin="anonymous"></script>
-		<title>Home</title>
+		<title>Document</title>
 	</head>
 	<body>
-		<div class="menu">
-			<span class="menu-container">
-				<a href="index.html">WeazelNews</a>
-				<a href="artical.html">Nos articles/ interviews</a>
-				<a href="history.html">L'histoire du serveur</a>
-				<a href="Citizen.html">La ville</a>
-			</span>
-		</div>
-		<div>
-			<h2>Qu'est ce que Weazel News ?</h2>
-			<div class="WeazelNewsDescription">
-				<img src="./images/WeazelNewsBuilding-GTAV.png" />
-				<p>
-					Weazel News représente le centre de journalisme de LOS SANTOS. Son but est de faire connaitre et résumer la vie du
-					serveur par le biais d'interviews (qui seront peut être sur Youtube, à voir), d'articles postés sur le site internet.
-					Weazel News est au courant de tout ce qu'il se passe en ville afin de pouvoir filmer et relater au mieux les
-					événements.<br /><br />
+		<nav class="navbar" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="index.html">
+					<img src="./img/WeazelNewsLogo.jpg" class="navbar-item-img" />
+				</a>
 
-					Weazel News a pour business model :<br /><br />
+				<a
+					role="button"
+					class="navbar-burger navbar-burger-own"
+					aria-label="menu"
+					aria-expanded="false"
+					data-target="navbarBasicExample"
+				>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a>
+			</div>
 
-					<i class="fas fa-caret-right"></i> Service 1 : Passer des annonces (100 $ à l'unité)<br />
-					<i class="fas fa-caret-right"></i> Service 2 : Faire de la publicité sur le site internet (le prix dépend de la demande,
-					il faut voir avec le directeur)<br />
-					<i class="fas fa-caret-right"></i> Service 3 : Nous proposons de faire des sites internets, de les mettre à jour et de
-					gérer la maintenance (le prix est à voir avec le directeur) . <br /><br />
-					Si vous voulez nous contacter, vous retrouverez le numéro des employés de Weazel News dans la page "La ville".
-				</p>
+			<div id="navbarBasicExample" class="navbar-menu">
+				<div class="navbar-start">
+					<a href="index.html" class="navbar-item navbar-link-own"> WeazelNews </a>
+					<a href="artical.html" class="navbar-item navbar-link-own"> Articles/Interviews </a>
+					<a class="navbar-item navbar-link-own"> Histoire du serveur </a>
+					<a class="navbar-item navbar-link-own"> La ville </a>
+
+					<div class="navbar-item has-dropdown is-hoverable">
+						<a class="navbar-link navbar-link-own"> More </a>
+
+						<div class="navbar-dropdown">
+							<a class="navbar-item navbar-link-own"> Concessionnaire </a>
+							<a class="navbar-item navbar-link-own"> LSPD </a>
+							<a class="navbar-item navbar-link-own"> Mosley </a>
+							<hr class="navbar-divider" />
+							<a class="navbar-item navbar-link-own"> remonter un problème </a>
+						</div>
+					</div>
+				</div>
+				<div class="navbar-end">
+					<div class="navbar-item">
+						<div class="buttons">
+							<a href="actu.html" class="button is-primary is-primary-own">
+								<strong>Actualité</strong>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="block">
+			<div class="box box-own">
+				<div class="container">
+					<h3 class="title is-3 title-box-own">QU'EST CE QUE WEAZEL NEWS ?</h3>
+					<div class="tile is-ancestor">
+						<div class="tile is-4 is-vertical is-parent">
+							<div class="tile is-child box">
+								<p class="title">Description</p>
+								<p>
+									Weazel News représente le centre de journalisme de LOS SANTOS. Son but est de faire connaitre et résumer
+									la vie du serveur par le biais d'interviews (qui seront peut être sur Youtube, à voir), d'articles
+									postés sur le site internet. Weazel News est au courant de tout ce qu'il se passe en ville afin de
+									pouvoir filmer et relater au mieux les événements. <br /><br />
+									Weazel News a pour business model : <br /><br />
+									<i class="fas fa-angle-right"></i> Service 1 :Passer des annonces (100 $ à l'unité)<br />
+									<i class="fas fa-angle-right"></i> Service 2 : Faire de la publicité sur le site internet (le prix
+									dépend de la demande, il faut voir avec le directeur) <br />
+									<i class="fas fa-angle-right"></i> Service 3 : Nous proposons de faire des sites internets, de les
+									mettre à jour et de gérer la maintenance (le prix est à voir avec le directeur)<br />
+									<br />
+									. Si vous voulez nous contacter, vous retrouverez le numéro des employés de Weazel News dans la page "La
+									ville".
+								</p>
+							</div>
+						</div>
+						<div class="tile is-parent title-box-own">
+							<div class="tile is-child">
+								<img src="./img/WeazelNewsBuilding-GTAV.png" />
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="maps">
-			<h2>Ou nous trouver ?</h2>
-			<div class="maps-img"></div>
-		</div>
-		<h2>Organigramme</h2>
-		<div class="maps">
-			<div class="organigrames-card">
-				<div class="organigrames-img"></div>
-				<h4>Directeur</h4>
-				<p>John Miller</p>
+
+		<div class="block">
+			<div class="container">
+				<div class="box">
+					<h3 class="title is-3 title-own">Ou nous trouver ?</h3>
+					<img src="./img/maps2.jpg" />
+				</div>
 			</div>
 		</div>
+
+		<div class="flex">
+			<div class="container container-flex-center">
+				<div class="card card-own">
+					<div class="card-image">
+						<figure class="image is-4by3">
+							<img src="./img/Miller.png" alt="Placeholder image" />
+						</figure>
+					</div>
+					<div class="card-content">
+						<div class="media">
+							<div class="media-content">
+								<p class="title is-4">John Miller</p>
+							</div>
+						</div>
+
+						<div class="content">
+							Directeur de Weazel News.
+							<a href="#">#WeazelNews</a> <a href="#">#leBoss</a>
+							<br />
+							<time datetime="2016-1-1">10 Avril 2021</time>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<div class="share">
 			<ol>
 				<li>
@@ -68,9 +150,7 @@
 			</ol>
 			<div class="toggle"></div>
 		</div>
-		<footer>
-			<p>&copy; 13 / 04 / 2021</p>
-		</footer>
-		<script src="./js/index.js"></script>
+
+		<script type="text/javascript" src="./js/index.js"></script>
 	</body>
 </html>

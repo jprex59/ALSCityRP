@@ -1,85 +1,15 @@
-.container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-h2 {
-	text-transform: uppercase;
-	font-weight: bolder;
-	text-align: center;
-	margin: 20px;
-}
-
-.interviews iframe {
-	margin: 50px;
-}
-.articles {
-	border: 1px solid black;
-	width: 950px;
-	height: 590px;
-	margin: 10px;
-}
-.articles h3 {
-	text-decoration: 2px underline overline #ab0f13;
-	text-align: center;
-	margin-top: 30px;
-	font-size: 40px;
-}
-.articles h4 {
-	text-align: center;
-	margin: 5px;
-}
-
-.Article {
-	width: 100%;
-	background-image: url("../images/article.PNG");
-	background-position: right;
-	background-size: contain;
-	background-repeat: no-repeat;
-	display: flex;
-	justify-content: space-between;
-}
-/*******************Article à modifier*************************/
-
-.Article1 {
-	background-image: url("../images/ImagesArticles/Delit1.jpg");
-	background-size: 500px;
-}
-.Article2 {
-	background-image: url("../images/ImagesArticles/Delit21.jpg");
-	background-size: 500px;
-	height: 600px;
-	background-position: top right;
-}
-
-.Article3 {
-	background-image: url("../images/ImagesArticles/Faver_Article_LSPD.jpg") !important;
-	background-size: 500px;
-	height: 600px;
-	background-position: right 100px;
-}
-
-.medium {
-	height: 800px;
-}
-
-/*******************************************************************/
-.Article span h5 {
-	width: 40%;
-	text-align: center;
-	text-transform: uppercase;
-	padding: 15px;
+.hero-body-own {
 	background-color: #ab0f13;
-	color: white;
-	font-size: 25px;
-	text-align: justify;
+	padding: 1.5em;
+	margin-bottom: 10px;
 }
 
-.Article span p {
-	width: 40%;
-	height: 200px;
-	padding: 15px;
-	margin: 15px;
-	text-align: justify;
+.title-own-artical {
+	text-align: center;
+	text-decoration: overline underline #ab0f13;
+	color: #ab0f13;
+}
+
+.hero-own {
+	background-color: #fff !important;
 }
