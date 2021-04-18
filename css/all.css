@@ -99,8 +99,8 @@ body {
 }
 .share {
 	position: fixed;
-	bottom: 70px;
-	right: 70px;
+	bottom: 30px;
+	right: 20px;
 }
 .share ol {
 	position: absolute;
@@ -148,4 +148,27 @@ body {
 .share.active ol li:nth-child(4) {
 	transition-delay: 0.4s;
 	transform: translateY(-60px);
+}
+
+.space-top {
+	margin-top: 100px;
+}
+
+.footer-colored {
+	background-color: #ab0f13;
+	color: #fff;
+	margin-top: 5px;
+}
+.has-text-centered a {
+	color: rgb(0, 0, 0);
+	text-decoration: underline;
+	font-weight: bolder;
+	transition: all 0.7s;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.has-text-centered a:hover {
+	color: #fff;
+	background-color: #690a0d;
 }

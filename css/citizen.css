@@ -10,15 +10,12 @@
 }
 .card-own {
 	width: 250px;
-	height: 400px;
+	height: 500px;
 	transition: all 0.5s;
 	margin: 10px;
 	border-radius: 10px;
 }
 
-.card-img-portrait {
-	height: 500px;
-}
 .card-own:hover {
 	border-radius: 50px;
 }
@@ -34,6 +31,7 @@
 	height: 200px;
 	background-repeat: no-repeat;
 	background-position: center;
+	border-radius: 10px 10px 2px 2px;
 }
 .box-citizen {
 	width: auto;
@@ -42,6 +40,10 @@
 	justify-content: space-around;
 	align-items: center;
 	background-color: #ab0f13;
+}
+
+.responsive-card {
+	margin-top: 10vh;
 }
 
 /*************Perso********************/

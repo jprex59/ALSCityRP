@@ -14,7 +14,7 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<nav class="navbar" role="navigation" aria-label="main navigation">
+		<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
 			<div class="navbar-brand">
 				<a class="navbar-item" href="index.html">
 					<img src="./img/WeazelNewsLogo.jpg" class="navbar-item-img" />
@@ -66,7 +66,7 @@
 		</nav>
 
 		<!--------------------------------------------------------------------------->
-
+		<div class="space-top"></div>
 		<div class="container-citizens">
 			<div class="card card-own">
 				<div class="card-image">
@@ -152,217 +152,214 @@
 					</div>
 				</div>
 			</div>
-			<div class="box box-citizen">
-				<div class="card card-own">
-					<div class="card-image">
-						<div class="card-img faver"></div>
-					</div>
-					<div class="card-content">
-						<div class="media">
-							<div class="media-left">
-								<p class="title is-4">Thomas Faver</p>
-								<p class="subtitle is-6">@Thomas Faver</p>
-							</div>
-						</div>
 
-						<div class="content">
-							Commandant du LSPD<br />
-							<div class="button COLORED" onclick="openModal(3)">Découvrir</div>
-							<div class="modal" id="Modal_3">
-								<div class="modal-background"></div>
-								<div class="modal-card responsive-card">
-									<header class="modal-card-head">
-										<p class="modal-card-title">Thomas Faver</p>
-										<button class="delete" aria-label="close" onclick="closeModal(3)"></button>
-									</header>
-									<section class="modal-card-body">
-										<b>Poste au LSPD </b> Commandant (LSPD/ SWAT/ ancien NAVy)<br /><br />
-										<b>Description du poste :</b> Tout comme ses lieutnants, la commandant exerce sa fonction également
-										sur le terrain. La particularité de son job et ce qui le différencie de ses subordonnés est sont
-										rôle de représentant au gouvernement, son rôle de coordinateur lors d'intervention, en plus de tous
-										sa, c'est celui qui donne les autorisations et gère la partie administrative. Monsieur Faver est
-										l'homme le plus au courant d'un point de vue sécurité, que ce soit avec le gouvernement, avec
-										l'armée ou plus locale avec la ville. De plus, monsieur Faver est formateur pour l'armée<br /><br />
-										<b>Projet</b> : <br />
-										<i class="fas fa-angle-right"></i> Recrutement proportionnelle au nombe d'habitans en ville <br />
-										<i class="fas fa-angle-right"></i> Ouvrir des divisions<br /><br/ > Arrivée en ville : ?<br /><br />
-										<a class="BouttonSwing" href="artical.html#lspd">LSPD</a>
-									</section>
-									<footer class="modal-card-foot"></footer>
-								</div>
-							</div>
-						</div>
-					</div>
+			<div class="card card-own">
+				<div class="card-image">
+					<div class="card-img faver"></div>
 				</div>
-
-				<div class="card card-own">
-					<div class="card-image">
-						<div class="card-img baranov"></div>
-					</div>
-					<div class="card-content">
-						<div class="media">
-							<div class="media-left">
-								<p class="title is-4">Juana Baranov</p>
-								<p class="subtitle is-6">@juanaBaranov</p>
-							</div>
-						</div>
-
-						<div class="content">
-							Lieutenant au LSPD<br />
-							<div class="button COLORED" onclick="openModal(4)">Découvrir</div>
-							<div class="modal" id="Modal_4">
-								<div class="modal-background"></div>
-								<div class="modal-card responsive-card">
-									<header class="modal-card-head">
-										<p class="modal-card-title">Juana Baranov</p>
-										<button class="delete" aria-label="close" onclick="closeModal(4)"></button>
-									</header>
-									<section class="modal-card-body">
-										<b>Poste au LSPD</b> : Lieutnant operationelle <br /><br />
-										<b>Arrivée en ville</b> : début Avril 2021<br /><br />
-										<a class="BouttonSwing" href="index.html">Weazel News</a>
-									</section>
-									<footer class="modal-card-foot"></footer>
-								</div>
-							</div>
+				<div class="card-content">
+					<div class="media">
+						<div class="media-left">
+							<p class="title is-4">Thomas Faver</p>
+							<p class="subtitle is-6">@Thomas Faver</p>
 						</div>
 					</div>
-				</div>
-				<div class="card card-own card-img-portrait">
-					<div class="card-image">
-						<div class="card-img tan"></div>
-					</div>
-					<div class="card-content">
-						<div class="media">
-							<div class="media-left">
-								<p class="title is-4">Kéran Tan</p>
-								<p class="subtitle is-6">@KéranTan</p>
-							</div>
-						</div>
 
-						<div class="content">
-							Lieutenant au LSPD<br />
-							<div class="button COLORED" onclick="openModal(5)">Découvrir</div>
-							<div class="modal" id="Modal_5">
-								<div class="modal-background"></div>
-								<div class="modal-card responsive-card">
-									<header class="modal-card-head">
-										<p class="modal-card-title">Kéran Tan</p>
-										<button class="delete" aria-label="close" onclick="closeModal(5)"></button>
-									</header>
-									<section class="modal-card-body">
-										<b>Poste au LSPD</b> : Lieutnant operationelle <br /><br />
-										<b>Arrivée en ville</b> : Février 2021<br /><br />
-									</section>
-									<footer class="modal-card-foot"></footer>
-								</div>
+					<div class="content">
+						Commandant du LSPD<br />
+						<div class="button COLORED" onclick="openModal(3)">Découvrir</div>
+						<div class="modal" id="Modal_3">
+							<div class="modal-background"></div>
+							<div class="modal-card responsive-card">
+								<header class="modal-card-head">
+									<p class="modal-card-title">Thomas Faver</p>
+									<button class="delete" aria-label="close" onclick="closeModal(3)"></button>
+								</header>
+								<section class="modal-card-body">
+									<b>Poste au LSPD </b> Commandant (LSPD/ SWAT/ ancien NAVy)<br /><br />
+									<b>Description du poste :</b> Tout comme ses lieutnants, la commandant exerce sa fonction également sur
+									le terrain. La particularité de son job et ce qui le différencie de ses subordonnés est sont rôle de
+									représentant au gouvernement, son rôle de coordinateur lors d'intervention, en plus de tous sa, c'est
+									celui qui donne les autorisations et gère la partie administrative. Monsieur Faver est l'homme le plus
+									au courant d'un point de vue sécurité, que ce soit avec le gouvernement, avec l'armée ou plus locale
+									avec la ville. De plus, monsieur Faver est formateur pour l'armée<br /><br />
+									<b>Projet</b> : <br />
+									<i class="fas fa-angle-right"></i> Recrutement proportionnelle au nombe d'habitans en ville <br />
+									<i class="fas fa-angle-right"></i> Ouvrir des divisions<br /><br/ > Arrivée en ville : ?<br /><br />
+									<a class="BouttonSwing" href="artical.html#lspd">LSPD</a>
+								</section>
+								<footer class="modal-card-foot"></footer>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="box box-citizen">
-				<div class="card card-own card-img-portrait">
-					<div class="card-image">
-						<div class="card-img dk"></div>
-					</div>
-					<div class="card-content">
-						<div class="media">
-							<div class="media-left">
-								<p class="title is-4">Daevon</p>
-								<p class="subtitle is-6">@Daevon</p>
-							</div>
-						</div>
 
-						<div class="content">
-							Directeur du Moseley<br />
-							<div class="button COLORED" onclick="openModal(6)">Découvrir</div>
-							<div class="modal" id="Modal_6">
-								<div class="modal-background"></div>
-								<div class="modal-card responsive-card">
-									<header class="modal-card-head">
-										<p class="modal-card-title">Daevon</p>
-										<button class="delete" aria-label="close" onclick="closeModal(6)"></button>
-									</header>
-									<section class="modal-card-body">
-										<b>Poste</b> : Directeur de Mosley avec Shannel et mécanicien/ dépanneur <br /><br />
-										<b>Description</b>: Mosley à pour activité principale le dépannage, la réparation de véhicules, Le
-										custom (les prix sont les mêmes pour tout type de véhicules) et la vente de véhicules Low rider et
-										muscle car <br /><br />
-										<b>Pojet</b> :<br />
-										<i class="fas fa-angle-right"></i> Faire un site internet récapitulant : les prix, l'activité mais
-										de manière plus détaillé, des éxemples de véhicules customes, des avis de clients, la
-										localisation... <br />
-										<i class="fas fa-angle-right"></i> Pas de recrutement dans un futur proche, sinon voir directement
-										avec les dirigeants <br /><br />
-										<b>Arrivée en ville</b> : Février 2021<br /><br />
-									</section>
-									<footer class="modal-card-foot"></footer>
-								</div>
+			<div class="card card-own">
+				<div class="card-image">
+					<div class="card-img baranov"></div>
+				</div>
+				<div class="card-content">
+					<div class="media">
+						<div class="media-left">
+							<p class="title is-4">Juana Baranov</p>
+							<p class="subtitle is-6">@juanaBaranov</p>
+						</div>
+					</div>
+
+					<div class="content">
+						Lieutenant au LSPD<br />
+						<div class="button COLORED" onclick="openModal(4)">Découvrir</div>
+						<div class="modal" id="Modal_4">
+							<div class="modal-background"></div>
+							<div class="modal-card responsive-card">
+								<header class="modal-card-head">
+									<p class="modal-card-title">Juana Baranov</p>
+									<button class="delete" aria-label="close" onclick="closeModal(4)"></button>
+								</header>
+								<section class="modal-card-body">
+									<b>Poste au LSPD</b> : Lieutnant operationelle <br /><br />
+									<b>Arrivée en ville</b> : début Avril 2021<br /><br />
+								</section>
+								<footer class="modal-card-foot"></footer>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="card card-own card-img-portrait">
-					<div class="card-image">
-						<div class="card-img shannel"></div>
-					</div>
-					<div class="card-content">
-						<div class="media">
-							<div class="media-left">
-								<p class="title is-4">Shannel</p>
-								<p class="subtitle is-6">@Shannel</p>
-							</div>
+			</div>
+			<div class="card card-own">
+				<div class="card-image">
+					<div class="card-img tan"></div>
+				</div>
+				<div class="card-content">
+					<div class="media">
+						<div class="media-left">
+							<p class="title is-4">Kéran Tan</p>
+							<p class="subtitle is-6">@KéranTan</p>
 						</div>
+					</div>
 
-						<div class="content">
-							Directeur du Moseley<br />
-							<div class="button COLORED" onclick="openModal(7)">Découvrir</div>
-							<div class="modal" id="Modal_7">
-								<div class="modal-background"></div>
-								<div class="modal-card responsive-card">
-									<header class="modal-card-head">
-										<p class="modal-card-title">Shannel</p>
-										<button class="delete" aria-label="close" onclick="closeModal(7)"></button>
-									</header>
-									<section class="modal-card-body">
-										<b>Poste au Mosley</b> : Directeur de Mosley avec Deavon et mécanicien/ dépanneur <br /><br />
-										<b>Arrivée en ville</b> : Février 2021<br /><br />
-									</section>
-									<footer class="modal-card-foot"></footer>
-								</div>
+					<div class="content">
+						Lieutenant au LSPD<br />
+						<div class="button COLORED" onclick="openModal(5)">Découvrir</div>
+						<div class="modal" id="Modal_5">
+							<div class="modal-background"></div>
+							<div class="modal-card responsive-card">
+								<header class="modal-card-head">
+									<p class="modal-card-title">Kéran Tan</p>
+									<button class="delete" aria-label="close" onclick="closeModal(5)"></button>
+								</header>
+								<section class="modal-card-body">
+									<b>Poste au LSPD</b> : Lieutnant operationelle <br /><br />
+									<b>Arrivée en ville</b> : Février 2021<br /><br />
+								</section>
+								<footer class="modal-card-foot"></footer>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="card card-own card-img-portrait">
-					<div class="card-image">
-						<div class="card-img jd"></div>
+			</div>
+
+			<div class="card card-own">
+				<div class="card-image">
+					<div class="card-img dk"></div>
+				</div>
+				<div class="card-content">
+					<div class="media">
+						<div class="media-left">
+							<p class="title is-4">Daevon</p>
+							<p class="subtitle is-6">@Daevon</p>
+						</div>
 					</div>
-					<div class="card-content">
-						<div class="media">
-							<div class="media-left">
-								<p class="title is-4">Jim</p>
-								<p class="subtitle is-6">@Jim</p>
+
+					<div class="content">
+						Directeur du Moseley<br />
+						<div class="button COLORED" onclick="openModal(6)">Découvrir</div>
+						<div class="modal" id="Modal_6">
+							<div class="modal-background"></div>
+							<div class="modal-card responsive-card">
+								<header class="modal-card-head">
+									<p class="modal-card-title">Daevon</p>
+									<button class="delete" aria-label="close" onclick="closeModal(6)"></button>
+								</header>
+								<section class="modal-card-body">
+									<b>Poste</b> : Directeur de Mosley avec Shannel et mécanicien/ dépanneur <br /><br />
+									<b>Description</b>: Mosley à pour activité principale le dépannage, la réparation de véhicules, Le
+									custom (les prix sont les mêmes pour tout type de véhicules) et la vente de véhicules Low rider et
+									muscle car <br /><br />
+									<b>Pojet</b> :<br />
+									<i class="fas fa-angle-right"></i> Faire un site internet récapitulant : les prix, l'activité mais de
+									manière plus détaillé, des éxemples de véhicules customes, des avis de clients, la localisation...
+									<br />
+									<i class="fas fa-angle-right"></i> Pas de recrutement dans un futur proche, sinon voir directement avec
+									les dirigeants <br /><br />
+									<b>Arrivée en ville</b> : Février 2021<br /><br />
+								</section>
+								<footer class="modal-card-foot"></footer>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card card-own">
+				<div class="card-image">
+					<div class="card-img shannel"></div>
+				</div>
+				<div class="card-content">
+					<div class="media">
+						<div class="media-left">
+							<p class="title is-4">Shannel</p>
+							<p class="subtitle is-6">@Shannel</p>
+						</div>
+					</div>
 
-						<div class="content">
-							Employé au Moseley<br />
-							<div class="button COLORED" onclick="openModal(8)">Découvrir</div>
-							<div class="modal" id="Modal_8">
-								<div class="modal-background"></div>
-								<div class="modal-card responsive-card">
-									<header class="modal-card-head">
-										<p class="modal-card-title">Jim</p>
-										<button class="delete" aria-label="close" onclick="closeModal(8)"></button>
-									</header>
-									<section class="modal-card-body">
-										<b>Poste au Mosley</b> : empployé mécanicien / dépanneur au Moseley <br /><br />
-										<b>Arrivée en ville</b> : Février 2021<br /><br />
-									</section>
-									<footer class="modal-card-foot"></footer>
-								</div>
+					<div class="content">
+						Directeur du Moseley<br />
+						<div class="button COLORED" onclick="openModal(7)">Découvrir</div>
+						<div class="modal" id="Modal_7">
+							<div class="modal-background"></div>
+							<div class="modal-card responsive-card">
+								<header class="modal-card-head">
+									<p class="modal-card-title">Shannel</p>
+									<button class="delete" aria-label="close" onclick="closeModal(7)"></button>
+								</header>
+								<section class="modal-card-body">
+									<b>Poste au Mosley</b> : Directeur de Mosley avec Deavon et mécanicien/ dépanneur <br /><br />
+									<b>Arrivée en ville</b> : Février 2021<br /><br />
+								</section>
+								<footer class="modal-card-foot"></footer>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card card-own">
+				<div class="card-image">
+					<div class="card-img jd"></div>
+				</div>
+				<div class="card-content">
+					<div class="media">
+						<div class="media-left">
+							<p class="title is-4">Jim</p>
+							<p class="subtitle is-6">@Jim</p>
+						</div>
+					</div>
+
+					<div class="content">
+						Employé au Moseley<br />
+						<div class="button COLORED" onclick="openModal(8)">Découvrir</div>
+						<div class="modal" id="Modal_8">
+							<div class="modal-background"></div>
+							<div class="modal-card responsive-card">
+								<header class="modal-card-head">
+									<p class="modal-card-title">Jim</p>
+									<button class="delete" aria-label="close" onclick="closeModal(8)"></button>
+								</header>
+								<section class="modal-card-body">
+									<b>Poste au Mosley</b> : empployé mécanicien / dépanneur au Moseley <br /><br />
+									<b>Arrivée en ville</b> : Février 2021<br /><br />
+								</section>
+								<footer class="modal-card-foot"></footer>
 							</div>
 						</div>
 					</div>
@@ -388,7 +385,13 @@
 			</ol>
 			<div class="toggle"></div>
 		</div>
-
+		<footer class="footer footer-colored">
+			<div class="content has-text-centered">
+				<p><a href="https://www.linkedin.com/in/jean-paaris/">Jean Paris</a>
+					<p>&copy; 13 / 04 / 2021</p>
+				</p>
+			</div>
+		</footer>
 		<script type="text/javascript" src="./js/index.js"></script>
 		<script type="text/javascript" src="./js/citizen.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
