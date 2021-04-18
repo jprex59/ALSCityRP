@@ -99,8 +99,8 @@ body {
 }
 .share {
 	position: fixed;
-	bottom: 30px;
-	right: 20px;
+	bottom: 65px;
+	right: 65px;
 }
 .share ol {
 	position: absolute;
@@ -160,11 +160,11 @@ body {
 	margin-top: 5px;
 }
 .has-text-centered a {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	text-decoration: underline;
 	font-weight: bolder;
 	transition: all 0.7s;
-	padding: 15px;
+	padding: 5px;
 	border-radius: 10px;
 }
 
