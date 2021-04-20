@@ -1,0 +1,146 @@
+body {
+	background-color: #211e1c !important;
+	color: #fcf300;
+}
+
+.COLORMOSLEY {
+	color: #fcf300 !important;
+	transition: all 0.3s;
+	background-color: #211e1c !important;
+}
+.COLORMOSLEY-table th {
+	color: #fcf300 !important;
+	transition: all 0.3s;
+	background-color: #211e1c !important;
+	text-align: center !important;
+}
+.COLORMOSLEYFOND {
+	color: #fcf300 !important;
+	transition: all 0.3s;
+	background-color: #211e1c !important;
+}
+.COLORMOSLEYINVERSEFOND {
+	color: #211e1c !important;
+	transition: all 0.3s;
+	background-color: #fcf300 !important;
+}
+
+.COLORMOSLEYINVERSE {
+	color: #211e1c !important;
+	transition: all 0.3s;
+	background-color: #fcf300 !important;
+}
+
+.COLORMOSLEYINVERSE:hover {
+	color: #fcf300 !important;
+	background-color: #211e1c !important;
+}
+
+.COLORMOSLEY:hover {
+	color: #211e1c !important;
+	background-color: #fcf300 !important;
+}
+
+.tr-own th {
+	text-align: center !important;
+}
+.tr-own td {
+	text-align: center !important;
+}
+
+.title-own {
+	text-align: center;
+	padding: 10px;
+}
+
+.has-text-centered a {
+	color: black !important;
+}
+
+.has-text-centered a:hover {
+	color: #fcf300 !important;
+	background-color: #211e1c !important;
+}
+
+.share ol li a {
+	color: #fcf300;
+}
+
+.share ol li {
+	background-color: #211e1c;
+}
+.toggle {
+	background: #fcf300;
+}
+
+.toggle::before {
+	color: #211e1c;
+}
+
+.block-own {
+	margin-top: 100px;
+}
+
+img {
+	border-radius: 10px;
+}
+
+i {
+	margin-right: 2px;
+}
+
+.box p {
+	text-align: justify;
+}
+
+.button {
+	margin-right: 10px;
+}
+
+.title-description {
+	float: left;
+	margin: 5px !important;
+	min-width: 120px;
+}
+
+.box-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+}
+.box-flex-wrap {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.column p {
+	text-align: justify;
+}
+
+.container-own {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.img-prix {
+	width: 500px;
+}
+
+.modal-card-body p {
+	color: black;
+	margin-bottom: 30px;
+}
+
+.disclaimer {
+	font-size: 9px;
+}
+@media all and (max-width: 700px) {
+	.colonne-responsive {
+		display: none;
+	}
+}

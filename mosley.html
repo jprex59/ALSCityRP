@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css" />
+		<link rel="stylesheet" href="./css/all.css" />
+        <link rel="stylesheet" href="./css/mosley.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+		<script src="https://kit.fontawesome.com/b8f4ab5226.js" crossorigin="anonymous"></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<nav class="navbar is-fixed-top COLORMOSLEYINVERSEFOND" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="./img/Persos/mosley_png.png" class="navbar-item-img" />
+        </a>
+    
+        <a role="button" class="navbar-burger navbar-burger-own" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="index.html" class="navbar-item COLORMOSLEYINVERSE"> WeazelNews </a>
+          <a href="artical.html" class="navbar-item COLORMOSLEYINVERSE"> Articles/Interviews </a>
+          <a href="citizen.html" class="navbar-item COLORMOSLEYINVERSE"> La ville </a>
+    
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link COLORMOSLEYINVERSE"> More </a>
+    
+            <div class="navbar-dropdown COLORMOSLEYINVERSEFOND">
+              <a href="https://sites.google.com/view/alscitypdm/accueil" class="navbar-item COLORMOSLEYINVERSE"> Concessionnaire </a>
+              <a class="navbar-item COLORMOSLEYINVERSE"> LSPD </a>
+              <a href="mosley.html" class="navbar-item COLORMOSLEYINVERSE"> Mosley </a>
+              <hr class="navbar-divider COLORMOSLEYFOND" />
+              <a href="contact.html" class="navbar-item COLORMOSLEYINVERSE"> Nous contacter </a>
+            </div>
+          </div>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="actu.html" class="button is-primary COLORMOSLEY">
+                <strong>Actualité</strong>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+		<div class="space-top"></div>
+    <!------------------------------>
+    <div class="block">
+        <h1 class="title is-3 COLORMOSLEYFOND title-own">Présentation</h1>
+
+        <!---le pb est dedans--->
+        <div class="tile is-ancestor">
+          <div class="tile is-vertical is-8">
+            <div class="tile">
+              <div class="tile is-parent is-vertical">
+                <article class="tile is-child box COLORMOSLEYINVERSEFOND">
+                  <h5 class="tile is-6 box COLORMOSLEYFOND title-own"><i class="fas fa-search-dollar"></i> Business model :</h5>
+                  <p>
+                    Mosley à pour activité principale : <br />
+                    <i class="fas fa-car-crash"></i> le dépannage, <i class="fas fa-tools"></i> la réparation,
+                    <i class="fas fa-money-check-alt"></i> le rachat, <i class="fas fa-spray-can"></i> Le custom <br />(les prix
+                    sont les mêmes pour tout type de véhicules) <br />
+                    <i class="fas fa-hand-point-right"></i> la vente de véhicules Low rider, motos quad et muscle car
+                  </p>
+                </article>
+                <article class="tile is-child box COLORMOSLEYINVERSEFOND">
+                  <h5 class="tile is-4 box COLORMOSLEYFOND title-own"><i class="fas fa-star"></i> Projet :</h5>
+                  <p>
+                    <i class="fas fa-hand-point-right"></i> Faire un site internet récapitulant : les prix, l'activité mais de
+                    manière plus détaillé, des éxemples de véhicules customes, des avis de clients, la localisation... <br /><i
+                      class="fas fa-hand-point-right"
+                    ></i>
+                    Pas de recrutement dans un futur proche, sinon voir directement avec les dirigeants
+                  </p>
+                </article>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child box COLORMOSLEYINVERSEFOND">
+                  <h5 class="tile is-12 box COLORMOSLEYFOND title-own">L'un des 2 directeurs : Deavon</h5>
+                  <img src="./img/Persos/Kane.jpg" />
+                </article>
+              </div>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child box COLORMOSLEYINVERSEFOND box-flex-wrap">
+                <h5 class="tile is-2 box COLORMOSLEYFOND title-own title-description">Les employés :</h5>
+                <a class="button COLORMOSLEY" href="citizen.html#daevon">Daevon</a>
+                <a class="button COLORMOSLEY" href="citizen.html#shannel">Shannel</a>
+                <a class="button COLORMOSLEY" href="citizen.html#jd">Jim</a>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent">
+            <article class="tile is-child box box-flex COLORMOSLEYINVERSEFOND">
+              <img src="./img/Persos/laeti.jpg" />
+              <h5 class="tile is-12 box COLORMOSLEYFOND title-own">L'un des 2 directeurs : Shannel</h5>
+            </article>
+          </div>
+        </div>
+        <!---le pb est dedans--->
+ 
+    </div>
+    
+
+      <div class="block">
+        <div class="container-own">
+          <div class="block">
+            <div class="title is-4 title-own COLORMOSLEYFOND">le  custom :</div>
+            <a onclick="openModal(100)">
+              <img class="image img-prix" src="./img/MosleySite/custome_img.jpg">
+            </a>
+          </div>
+          <div class="block">
+            <div class="title is-4 title-own COLORMOSLEYFOND">le Dépannage/ la réparation :</div>
+              <a onclick="openModal(101)">
+                <img class="image img-prix" src="./img/MosleySite/Depannage mosley.jpg">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+<!----------------------------------------------------------------->
+<div class="block block-width">
+    <div class="container">
+        <h1 class="title is-3 COLORMOSLEYFOND title-own">Nos voitures</h1>
+        <div class="subtitle is-6 COLORMOSLEYFOND title-own">nous nous excusons mais nous n'avons pas trouvé de photos pour les variantes de véhicules</div>
+
+<table class="table table is-fullwidth COLORMOSLEYINVERSEFOND">
+    <thead>
+      <tr class="tr-own">
+        <th class="colonne-responsive">Classe</th>
+        <th>Voiture</th>
+        <th>Prix</th>
+        <th>Découvrir Les voitures</th>
+      </tr>
+    </thead>
+    
+    <tbody>
+		<tr class="tr-own">
+			<th class="colonne-responsive">Muscle</th>
+			<td>Voodoo</td>
+			<td>7 200$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(1)">découvrir</button></td>
+		  </tr>   
+		<tr class="tr-own">
+			<th class="colonne-responsive">Muscle</th>
+			<td>Slam Van</td>
+			<td>11 500$</td>
+		  <td><button class="button COLORMOSLEY" onclick="openModal(2)">découvrir</button></td>
+		  </tr>     
+		<tr class="tr-own">
+			<th class="colonne-responsive">Muscle</th>
+			<td>Phoenix</td>
+			<td>12 500$</td>
+		  <td><button class="button COLORMOSLEY" onclick="openModal(3)">découvrir</button></td>
+		  </tr>  
+		  <tr class="tr-own">
+			<th class="colonne-responsive">Muscle</th>
+			<td>Vigero</td>
+			<td>12 500$</td>
+		  <td><button class="button COLORMOSLEY" onclick="openModal(4)">découvrir</button></td>
+		  </tr>  
+		  <tr class="tr-own">
+			<th class="colonne-responsive">Muscle</th>
+			<td>Manana</td>
+			<td>12 800$</td>
+		  <td><button class="button COLORMOSLEY" onclick="openModal(5)">découvrir</button></td>
+		  </tr>      
+		  <tr class="tr-own">
+			<th class="colonne-responsive">Muscle</th>
+			<td>Virgo</td>
+			<td>14 000$</td>
+		  <td><button class="button COLORMOSLEY" onclick="openModal(6)">découvrir</button></td>
+		  </tr>    
+     	<tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>blade</td>
+        <td>15 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(7)">découvrir</button></td>
+		  </tr>   
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Chino</td>
+        <td>15 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(8)">découvrir</button></td>
+		  </tr>  
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Tampa</td>
+        <td>16 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(9)">découvrir</button></td>
+		  </tr>        
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Buccaneer</td>
+        <td>18 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(10)">découvrir</button></td>
+		  </tr> 
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Picador</td>
+        <td>18 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(11)">découvrir</button></td>
+		  </tr>     
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Chino Luxe</td>
+        <td>19 000$</td>
+        <td><!--<button class="button COLORMOSLEY" onclick="openModal(28)">découvrir</button>--></td>
+		  </tr>  
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Faction</td>
+        <td>20 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(12)">découvrir</button></td>
+		  </tr>  
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Sabre Turbo</td>
+        <td>20 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(13)">découvrir</button></td>
+		  </tr>        
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Buccaneer Rider</td>
+        <td>24 000$</td>
+        <td><!--<button class="button COLORMOSLEY" onclick="openModal(28)">découvrir</button>--></td>
+		  </tr>    
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Sabre GT</td>
+        <td>25 000$</td>
+        <td><!--<button class="button COLORMOSLEY" onclick="openModal(28)">découvrir</button>--></td>
+		  </tr>   
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Streiter</td>
+        <td>25 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(14)">découvrir</button></td>
+		  </tr>  
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Ruiner 2</td>
+        <td>25 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(15)">découvrir</button></td>
+		  </tr>      
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Dukes</td>
+        <td>28 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(16)">découvrir</button></td>
+		  </tr>   
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Faction Rider</td>
+        <td>30 000$</td>
+        <td><!--<button class="button COLORMOSLEY" onclick="openModal(28)">découvrir</button>--></td>
+		  </tr>  
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Yosemite</td>
+        <td>30 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(17)">découvrir</button></td>
+		  </tr>     
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Gauntlet</td>
+        <td>30 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(18)">découvrir</button></td>
+		  </tr> 
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Faction XL</td>
+        <td>40 000$</td>
+        <td><!--<button class="button COLORMOSLEY" onclick="openModal(28)">découvrir</button>--></td>
+		  </tr>   
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Hermes</td>
+        <td>45 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(19)">découvrir</button></td>
+		  </tr>     
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Hotknife</td>
+        <td>55 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(20)">découvrir</button></td>
+		  </tr>  
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Nightshade</td>
+        <td>65 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(21)">découvrir</button></td>
+		  </tr>   
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Muscle</th>
+        <td>Hustler</td>
+        <td>300 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(22)">découvrir</button></td>
+		  </tr>   
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Vans</th>
+        <td>Moonbeam</td>
+        <td>18 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(23)">découvrir</button></td>
+		  </tr>  
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Vans</th>
+        <td>Moonbeam Rider</td>
+        <td>35 000$</td>
+        <td><!--<button class="button COLORMOSLEY" onclick="openModal(28)">découvrir</button>--></td>
+		  </tr>    
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Vans</th>
+        <td>Gang Burrito</td>
+        <td>45 000$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(24)">découvrir</button></td>
+		  </tr>      
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Sedans</th>
+        <td>Primo Custom</td>
+        <td>15 000$</td>
+        <td><!--<button class="button COLORMOSLEY" onclick="openModal(28)">découvrir</button>--></td>
+		  </tr>  
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Offroad</th>
+        <td>Blazer</td>
+        <td>6 500$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(26)">découvrir</button></td>
+		  </tr>  
+	  <tr class="tr-own">
+        <th class="colonne-responsive">Offroad</th>
+        <td>Blazer Sport</td>
+        <td>8 500$</td>
+        <td><!--<button class="button COLORMOSLEY" onclick="openModal(28)">découvrir</button>--></td>
+		  </tr>    
+	  <tr class="tr-own">
+        <th class="colonne-responsive">motorcycles</th>
+        <td>Manchez</td>
+        <td>5 300$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(27)">découvrir</button></td>
+		  </tr>     
+	  <tr class="tr-own">
+        <th class="colonne-responsive">motorcycles</th>
+        <td>Sanchez</td>
+        <td>5 300$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(28)">découvrir</button></td>
+		  </tr>   
+	  <tr class="tr-own">
+        <th class="colonne-responsive">motorcycles</th>
+        <td>Sanchez Sport</td>
+        <td>5 300$</td>
+      <td><!--<button class="button COLORMOSLEY" onclick="openModal(28)">découvrir</button>--></td>
+		  </tr>  
+	  <tr class="tr-own">
+        <th class="colonne-responsive">motorcycles</th>
+        <td>Tri bike</td>
+        <td>300$</td>
+      <td><button class="button COLORMOSLEY" onclick="openModal(29)">découvrir</button></td>
+		  </tr>  
+    </tbody>
+  </table>
+  </div>
+</div>
+
+<!--------------------------------------------------------------->
+<div class="modal" id="Modal_1">
+    <div class="modal-background"></div>
+    <div class="modal-card responsive-card">
+        <header class="modal-card-head">
+            <p class="modal-card-title">Voodoo</p>
+            <button class="delete" aria-label="close" onclick="closeModal(1)"></button>
+        </header>
+        <section class="modal-card-body">
+          <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+				<img src="./img/MosleySite/Voodoo-GTAV-front.png">
+        </section>
+        <footer class="modal-card-foot"></footer>
+    </div>
+</div>
+<!---->
+<div class="modal" id="Modal_2">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Slam Van</p>
+          <button class="delete" aria-label="close" onclick="closeModal(2)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Slamvan-GTAV-FrontQuarter.jpg">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_3">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Phoenix</p>
+          <button class="delete" aria-label="close" onclick="closeModal(3)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Phoenix-GTAV-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_4">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Vigero</p>
+          <button class="delete" aria-label="close" onclick="closeModal(4)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Virgo-GTAV-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_5">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Manana</p>
+          <button class="delete" aria-label="close" onclick="closeModal(5)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Manana-GTAV-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_6">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Virgo</p>
+          <button class="delete" aria-label="close" onclick="closeModal(6)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Virgo-GTAV-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_7">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">blade</p>
+          <button class="delete" aria-label="close" onclick="closeModal(7)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/blade.jpg">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_8">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Chino</p>
+          <button class="delete" aria-label="close" onclick="closeModal(8)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Chino-GTAV-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_9">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Tampa</p>
+          <button class="delete" aria-label="close" onclick="closeModal(9)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Tampa-GTAO-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_10">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Buccaneer</p>
+          <button class="delete" aria-label="close" onclick="closeModal(10)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Buccaneer_V.jpg">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_11">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Picador</p>
+          <button class="delete" aria-label="close" onclick="closeModal(11)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Picador-GTAV-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_12">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Faction</p>
+          <button class="delete" aria-label="close" onclick="closeModal(12)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Faction-GTAO-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_13">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Sabre turbo</p>
+          <button class="delete" aria-label="close" onclick="closeModal(13)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/SabreTurbo-GTAV-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_14">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Streiter</p>
+          <button class="delete" aria-label="close" onclick="closeModal(14)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/streiter.jpg">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_15">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Ruiner</p>
+          <button class="delete" aria-label="close" onclick="closeModal(15)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Ruiner_GTA_IV_(vue_avant).jpg">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_16">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Dukes</p>
+          <button class="delete" aria-label="close" onclick="closeModal(16)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Dukes_GTA_V_(vue_avant).png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_17">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Yosemite</p>
+          <button class="delete" aria-label="close" onclick="closeModal(17)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Yosemite-GTAO-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_18">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Gauntlet</p>
+          <button class="delete" aria-label="close" onclick="closeModal(18)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Gauntlet-GTAV-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_19">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Hermes</p>
+          <button class="delete" aria-label="close" onclick="closeModal(19)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Hermes-GTAO-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_20">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Hotknife</p>
+          <button class="delete" aria-label="close" onclick="closeModal(20)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Hotknife-GTAV-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_21">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Nightshade</p>
+          <button class="delete" aria-label="close" onclick="closeModal(21)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Nightshade_vue_devant.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_22">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Hustler</p>
+          <button class="delete" aria-label="close" onclick="closeModal(22)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Hustler-GTAO-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_23">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Moonbeam</p>
+          <button class="delete" aria-label="close" onclick="closeModal(23)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Moonbeam-GTAO-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_24">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Gang burrito</p>
+          <button class="delete" aria-label="close" onclick="closeModal(24)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Burrito3-GTAV-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_25">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Primo</p>
+          <button class="delete" aria-label="close" onclick="closeModal(25)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Primo-GTAV-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_26">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Blazer</p>
+          <button class="delete" aria-label="close" onclick="closeModal(26)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Blazer-GTAV-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_27">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Manchez</p>
+          <button class="delete" aria-label="close" onclick="closeModal(27)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Manchez-GTAO-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_28">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Sanchez</p>
+          <button class="delete" aria-label="close" onclick="closeModal(28)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Sanchez_GTA_V_(vue_avant).png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_29">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Tri bike</p>
+          <button class="delete" aria-label="close" onclick="closeModal(29)"></button>
+      </header>
+      <section class="modal-card-body">
+        <!--<h5 class="title is-5 title-own">A l'achat</h5>-->
+      <img src="./img/MosleySite/Tri-CyclesRaceBike-GTAV-front.png">
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_100">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Custom</p>
+          <button class="delete" aria-label="close" onclick="closeModal(100)"></button>
+      </header>
+      <section class="modal-card-body">
+        <p>
+          <b>Installation de custom et d’upgrade</b> :<br/>
+          (correspond à la manoeuvre, c'est à rajouter au prix du custom)<br/>
+          <i class="fas fa-caret-right"></i> Upgrades mécaniques (moteur, freins, suspensions...) : 70$ (à l’unité)<br/>
+          <i class="fas fa-caret-right"></i> Custom divers (peinture, accessoires,autocollants...) : 40$ (à l’unité)<br/>
+        </p>
+        <h4 class="title is-4 title-own">Extérieur</h4>
+        <h5 class="title is-5">Peintures / autocollants</h5>
+        <p>
+          <b>Peinture nacré</b> : 220$<br/>
+          <b>Peinture primaire</b> : 280$<br/>
+          <b>secondaire</b> : 165$<br/><br/>
+          <b>Autocollants</b> : 2 325$
+        
+        </p>
+        <h5 class="title is-5">Carosserie / sur le véhicule</h5>
+        <p>
+          <b>Fenêtre</b> : 280$<br />
+          <b>Par-choc avant</b> : 1 280$<br/>
+          <b>Par-choc arrière</b> : 1 280$<br />
+          <b>Aileron</b> : 1 162$<br />
+          <b>Capot</b> : 1 220$<br />
+          <b>Grille</b> : 930$<br />
+          <b>Pot d'échappement</b> : 1 280$<br />
+          <b>Néon</b> : 280$<br />
+          <b>Phares (ex : Neon)</b> : 1 860$<br />
+          <b>Plaque</b> : 550$<br /><br />
+          (Concernant les <b>jantes</b> il faut voir directement lors de la customisation)
+        </p>
+        <h5 class="title is-5">Autres</h5>
+        <p>
+          <b>Couleurs jantes</b> 330$<br />
+          <b>Fumée de pneu</b> : 560$ <br />
+        </p>
+        <h4 class="title is-4 title-own">Intérieur</h4>
+        <h5 class="title is-5">Habitacle</h5>
+          <p>
+            <b>Cage (arceaux de sécurité)</b> : 1280$<br />
+            <b>Coffre</b> : 1 395$<br />
+            <b>Haut-parleurs</b> : 1 745$<br />
+            <b>Intérieur</b> : 1 745$<br />
+            <b>Levier de vitesses</b> : 815$<br />
+          </p>
+        <h5 class="title is-5">Mécanique</h5>
+        <p>
+          <b>Bloc moteur</b> : 1 280$ <br />
+          <b>Filtre à air</b> : 930$<br /><br />
+          <b>Freins</b> : <br />
+          <i class="fas fa-angle-right"></i> Niveau 1 : 2 325$<br />
+          <i class="fas fa-angle-right"></i> Niveau 2 : 4 650$<br />
+          <i class="fas fa-angle-right"></i> Niveau 3 : 9 300$<br /><br />
+          <b>Moteur</b> : <br />
+          <i class="fas fa-angle-right"></i> Niveau 1 : 6 975$<br />
+          <i class="fas fa-angle-right"></i> Niveau 2 : 16 280$<br />
+          <i class="fas fa-angle-right"></i> Niveau 3 : 32 560$<br />
+          <i class="fas fa-angle-right"></i> Niveau 4 : 69 765$<br /><br />
+          <b>Suspension</b> : <br />
+          <i class="fas fa-angle-right"></i> Niveau 1 : 1 860$<br />
+          <i class="fas fa-angle-right"></i> Niveau 2 : 3 720$<br />
+          <i class="fas fa-angle-right"></i> Niveau 3 : 7 440$<br />
+          <i class="fas fa-angle-right"></i> Niveau 4 : 14 885$<br /><br />
+          <b>Transmission</b> : <br />
+          <i class="fas fa-angle-right"></i> Niveau 1 : 6 975$<br/>
+          <i class="fas fa-angle-right"></i> Niveau 2 : 10 465$<br />
+          <i class="fas fa-angle-right"></i> Niveau 3 : 23 255$<br /><br />
+          <b>Turbo</b> : 27 905$<br />
+          <b>Suspension hydraulique</b> : 1 280$<br /> 
+        </p>
+        <h5 class="title is-5">Autres</h5>
+        <p>
+          <b>Klaxon</b> : 280$<br />
+        </p>
+        <p class="disclaimer"><i class="fas fa-exclamation-triangle"></i> C'est une moyenne des prix, il est évident que selon le véhicule, la somme peut changer</p>
+     
+  
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+<!---->
+<div class="modal" id="Modal_101">
+  <div class="modal-background"></div>
+  <div class="modal-card responsive-card">
+      <header class="modal-card-head">
+          <p class="modal-card-title">Dépannage/ réparation</p>
+          <button class="delete" aria-label="close" onclick="closeModal(101)"></button>
+      </header>
+      <section class="modal-card-body">
+        <p>
+          <b>Réparation en Atelier</b> :<br/>
+          <i class="fas fa-caret-right"></i> carrosserie : de 100$ à 300$<br/>
+          <i class="fas fa-caret-right"></i> Changement de pneu : 50$ (à l’unité)<br/>
+          <i class="fas fa-caret-right"></i> Changement de vitre : 150$ (à l’unité)<br/>
+          <i class="fas fa-caret-right"></i> Réparation moteur : 500$ <br/></p>
+          <p>
+            <b>Déplacements et retours en atelier pour réparation</b> : <br />
+            <i class="fas fa-caret-right"></i> <b>tarifs classiques</b> + 30$<br/>
+            <i class="fas fa-caret-right"></i><b>Déplacements en fourrière</b> : 20$ par véhicules
+          </p>
+
+          <p>
+            <b>Réparations en déplacement (sur place)</b> :<br/>
+            <i class="fas fa-caret-right"></i> Changement de pneu : 60$ (à l’unité)<br/>
+            <i class="fas fa-caret-right"></i> Petite réparation moteur : 100$ (à l’unité)<br/>
+          </p>
+
+          
+  
+      </section>
+      <footer class="modal-card-foot"></footer>
+  </div>
+</div>
+
+<!---->
+<!---------------------------------------------------------------->
+		<div class="share">
+			<ol>
+				<li>
+					<a href="https://twitter.com/alscity_rp"><i class="fab fa-twitter fa-2x"></i></a>
+				</li>
+				<!--<li>
+					<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+				</li>-->
+				<li>
+					<a href="https://top-serveurs.net/gta/als-cityrp"><i class="fas fa-vote-yea fa-2x"></i></a>
+				</li>
+				<li>
+					<a href="https://discord.com/invite/fQkfhQ2tN4"><i class="fab fa-discord fa-2x"></i></a>
+				</li>
+			</ol>
+			<div class="toggle"></div>
+		</div>
+		<footer class="footer COLORMOSLEYINVERSEFOND">
+			<div class="content has-text-centered">
+				<p><a href="https://www.linkedin.com/in/jean-paaris/">Jean Paris</a>
+					<p>&copy; 13 / 04 / 2021</p>
+				</p>
+			</div>
+		</footer>
+		<script type="text/javascript" src="./js/index.js"></script>
+        <script type="text/javascript" src="./js/citizen.js"></script>
+	</body>
+</html>
