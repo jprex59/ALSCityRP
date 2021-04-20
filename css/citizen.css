@@ -90,6 +90,13 @@
 	background-position: center;
 	height: 300px;
 }
+
+.elkinss {
+	background-image: url("../img/Persos/elkinss.jpg");
+	background-size: 700px;
+	background-position: -230px -200px;
+	height: 250px;
+}
 /**********Responsive*******************/
 
 @media all and (max-width: 770px) {
