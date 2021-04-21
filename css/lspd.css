@@ -96,17 +96,24 @@ body {
 	margin: 10px;
 }
 
+.box-inbox {
+	background-color: #1c4262 !important;
+	text-align: justify;
+}
+
 .presentation {
 	font-weight: bold;
 	font-size: 20px;
-}
-p {
-	font-weight: bold;
 }
 
 .space-message {
 	margin-top: 10px;
 	margin-bottom: 10px;
+}
+
+.button-own {
+	padding: 3px;
+	border-radius: 5px;
 }
 @media all and (max-width: 1023px) {
 	.navbar-menu {
