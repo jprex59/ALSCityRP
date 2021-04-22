@@ -1,6 +1,7 @@
 body {
 	background-color: #1c4262 !important;
 	color: #feffff;
+	min-width: 500px;
 }
 .colorlspd {
 	color: #1c4262 !important;
@@ -78,6 +79,12 @@ body {
 	color: #feffff;
 	text-align: center !important;
 }
+.heading {
+	color: #c59e34;
+}
+.title {
+	color: #fefefe !important;
+}
 
 .is-centered {
 	text-align: center;
@@ -104,6 +111,7 @@ body {
 .presentation {
 	font-weight: bold;
 	font-size: 20px;
+	height: 100px !important;
 }
 
 .space-message {
