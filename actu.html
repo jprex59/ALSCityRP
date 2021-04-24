@@ -56,7 +56,7 @@
 					<div class="navbar-item">
 						<div class="buttons">
 							<a href="actu.html" class="button is-primary is-primary-own button-badge">
-								<span title="Badge top right" class="badge">1</span>
+								<span title="Badge top right" class="badge"><i class="fas fa-exclamation"></i></span>
 								<strong>Actualité</strong>
 							</a>
 						</div>
@@ -67,25 +67,24 @@
 		<div class="space-top"></div>
 		<div class="block">
 			<div class="container">
+				<div class="box">
+					<p class="centré">
+						<i class="fas fa-exclamation"></i> et un message sur fond blanc indique qu'il à été publié aujourd'hui<br />
+						autrement, une couleur de fond plus foncé indique que le message à été publié il y a au moins 1 jours
+					</p>
+				</div>
 				<article class="message is-danger">
 					<div class="message-header">
 						<p>Serveur :</p>
 					</div>
 					<div class="message-body">
-						FiveM down ce soir ...
-					</div>
-				</article>
-				<article class="message is-danger">
-					<div class="message-header">
-						<p>Serveur :</p>
-					</div>
-					<div class="message-body">
-						Le serveur recrute ! Si vous êtes intéréssés allez check le discord du serveur. Pour toutes éventuels questions 
-						on vous invite à remplir le questionnaire dans l'onglet <b>"nous contacter"</b>
+						<i class="fas fa-angle-right"></i> Le serveur recrute ! Si vous êtes intéréssés allez check le discord du serveur. Pour toutes éventuels questions 
+						on vous invite à remplir le questionnaire dans l'onglet <b>"nous contacter"</b><br /><br />
+						<i class="fas fa-angle-right"></i> FiveM est Re Open ...
 					</div>
 				</article>
 				
-				<div class="box">
+				<div class="box box-color-1">
 					<article class="media">
 						<div class="media-left">
 							<figure class="image is-64x64">
@@ -95,7 +94,7 @@
 						<div class="media-content">
 							<div class="content">
 								<p>
-									<strong>John Miller</strong><small> 23 / 04 /2021</small>
+									<strong>John Miller </strong><small class="jour">24</small>/<small class="moi">04</small>/<small class="année">2021</small>
 									<br />
 									Conférence de presse du commandant du LSPD ce soir !
 								</p>
@@ -103,7 +102,7 @@
 						</div>
 					</article>
 				</div>
-				<div class="box">
+				<div class="box box-color-2">
 					<article class="media">
 						<div class="media-left">
 							<figure class="image is-64x64">
@@ -113,7 +112,8 @@
 						<div class="media-content">
 							<div class="content">
 								<p>
-									<strong>John Miller</strong><small> 17 / 04 /2021</small>
+									<strong>John Miller </strong><small class="jour">17</small>/<small class="moi">04</small>/<small class="année">2021</small>
+									
 									<br />
 									je croise les doigts pour ne pas avoir de temps pourris, par ce que hier...
 								</p>
@@ -142,7 +142,7 @@
 						</div>
 					</article>
 				</div>
-				<div class="box">
+				<div class="box box-color-3">
 					<article class="media">
 						<div class="media-left">
 							<figure class="image is-48x48">
@@ -152,7 +152,7 @@
 						<div class="media-content">
 							<div class="content">
 								<p>
-									<strong>Carat</strong> <small>@Shannel @Daevon</small> <small>25 / 06 / 2020</small>
+									<strong>Carat</strong> <small>@Shannel @Daevon</small> <small class="jour">25</small>/<small class="moi">06</small>/<small class="année">2020</small>
 									<br />
 									CARAT - VIE D'GANGSTER (#BallasGang​ Rap)<br />
 
@@ -211,5 +211,6 @@
 			</div>
 		</footer>
 		<script type="text/javascript" src="./js/index.js"></script>
+		<script type="text/javascript" src="./js/actu.js"></script>
 	</body>
 </html>
