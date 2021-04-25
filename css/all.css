@@ -186,7 +186,7 @@ body {
 	border: solid 1px black;
 	padding: 2px 8px 2px 8px;
 	border-radius: 45%;
-	display: block;
+	display: none;
 }
 
 .box-color {
