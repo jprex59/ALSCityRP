@@ -123,6 +123,7 @@ body {
 	padding: 3px;
 	border-radius: 5px;
 }
+
 @media all and (max-width: 1023px) {
 	.navbar-menu {
 		background-color: #fefefe !important;
