@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: "Roboto", sans-serif;
 }
@@ -188,7 +192,7 @@ body {
 	border: solid 1px black;
 	padding: 2px 8px 2px 8px;
 	border-radius: 45%;
-	display: none;
+	/*display: none;*/
 }
 
 .box-color {
@@ -196,5 +200,23 @@ body {
 }
 
 .centré {
+	text-align: center;
+}
+
+.fa-margin {
+	margin-right: 5px;
+}
+
+.fa-code {
+	font-size: 10px;
+}
+
+.fa-angle-right {
+	font-size: 15px;
+}
+
+.divider {
+	background-color: black !important;
+	color: #fff !important;
 	text-align: center;
 }

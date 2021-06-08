@@ -97,6 +97,18 @@
 	background-position: -230px -200px;
 	height: 250px;
 }
+.morgan {
+	background-image: url("../img/Persos/morgan.jpeg");
+	background-size: 250px;
+	background-position: center;
+	height: 300px;
+}
+.diams {
+	background-image: url("../img/Persos/diams.jpg");
+	background-size: 250px;
+	background-position: center;
+	height: 300px;
+}
 /**********Responsive*******************/
 
 @media all and (max-width: 770px) {

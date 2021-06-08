@@ -1,0 +1,25 @@
+/*.container-own {
+	overflow: hidden;
+	display: flex;
+	/* Fonctionne avec toutes les tailles */
+/*width: 100%;
+	position: absolute;
+	bottom: 0;
+	transform: translateY(-50%);
+	/* pour rotate on enlève le translate et on rajoute le rotate */
+/*transform: rotate(90deg);*/ /*
+}/*
+.txt {
+	white-space: nowrap;
+	font-size: 100px;
+	animation: scrollTxt 25s linear infinite;
+}*/
+
+@keyframes scrollTxt {
+	0% {
+		transform: translate(-100%, 0);
+	}
+	100% {
+		transform: translate(0%, 0);
+	}
+}

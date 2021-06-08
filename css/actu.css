@@ -1,0 +1,11 @@
+.container-messages {
+	display: flex;
+	flex-direction: column-reverse !important;
+}
+
+.box {
+	margin: 10px !important;
+}
+p {
+	text-align: justify !important;
+}
